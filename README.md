@@ -6,7 +6,7 @@ We love MTA for its 24-7 and we hate it for its delays and crowded trains. With 
 
 ## EDA
 
-![]('/Users/jchen056/MTA_MTA/visualizations/time_spatial.gif')
+![](https://github.com/jchen056/MTA_MTA/blob/main/visualizations/time_spatial.gif)
 
 - Understand complaints about MTA: commendation vs complaint ratio, major complaints(~~text analysis~~)
 - Understand demands for public transportation based on days, hours, and geography: time series analysis and geos-spatial analysis
