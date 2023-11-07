@@ -263,7 +263,7 @@ with tab3:
     tab_31, tab_32 = st.tabs(['Weather Distrbution', 'Time Series'])
     with tab_31:
         html_file_time = open(
-            "visualizations/Weather.html", 'r', encoding='utf-8')
+            "visualizations/weather.html", 'r', encoding='utf-8')
         source_code = html_file_time.read()
         components.html(source_code, width=980, height=1000)
     with tab_32:
