@@ -9,6 +9,8 @@ import calendar
 import streamlit.components.v1 as components
 from PIL import Image
 from base64 import b64encode
+
+st.header("Exploratory Data Analysis")
 # @st.cache_data
 # def read_csv(path="Data/MTA_Subway_Hourly_Ridership__Beginning_February_2022.csv"):
 #     return pd.read_csv(path)
