@@ -8,3 +8,4 @@ pandas==1.5.3
 Pillow==9.0.1
 plotly==5.6.0
 bokeh==2.3.3
+sklearn==1.0.2
