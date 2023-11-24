@@ -471,3 +471,114 @@ Read port: 54340
 1698172278122	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 DevTools listening on ws://127.0.0.1:54331/devtools/browser/357b0dfb-aa3a-48a5-808b-c547adc20bb0
 1698172283661	Marionette	INFO	Stopped listening on port 54340
+1700846531566	geckodriver	INFO	Listening on 127.0.0.1:62689
+1700846532001	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c3/wqq2zhw90l596jqv25j63ggc0000gn/T/rust_mozprofileWIgFp3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700846534946	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700846535353	Marionette	INFO	Listening on port 62713
+WebDriver BiDi listening on ws://127.0.0.1:62690
+Read port: 62713
+1700846535673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62690/devtools/browser/301f6b62-71cd-4bbe-81a8-d4637158a4dc
+1700846543116	geckodriver	INFO	Listening on 127.0.0.1:62787
+1700846543622	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c3/wqq2zhw90l596jqv25j63ggc0000gn/T/rust_mozprofilejgeTjF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700846544062	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700846544361	Marionette	INFO	Listening on port 62799
+WebDriver BiDi listening on ws://127.0.0.1:62788
+Read port: 62799
+1700846544590	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62788/devtools/browser/bff59b6c-e57d-4522-b3eb-f198b2ab567f
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2788
+c@https://sc-static.net/scevent.min.js:2:6744
+
+1700846549588	Marionette	INFO	Stopped listening on port 62799
+JavaScript warning: https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js, line 108: Script terminated by timeout at:
+21499/e.prototype.recompute@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:108:43042
+o@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:108:46191
+21499/e.prototype.diffQueryAgainstStore@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:108:49858
+21499/t.prototype.diff@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:108:59797
+60717/e.prototype.getCurrentQueryResult@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:87:102625
+60717/t.prototype.getCurrentResult@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:87:77855
+82189/t.prototype.getQueryResult@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:87:59961
+82189/t/o.getExecuteResult@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:87:55014
+82189/t.prototype.execute@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:87:55952
+g@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:87:62218
+p@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:87:62311
+d@https://s3-media0.fl.yelpcdn.com/assets/public/module_yelp-frontend_commons.yji-5a6ce493eba0db3822d1.js:87:62579
+54303/w<@https://s3-media0.fl.yelpcdn.com/assets/public/Reviews.yji-48040a99751f8afef8c9.chunk.js:70:39115
+of@https://s3-media0.fl.yelpcdn.com/assets/srv0/cdn_assets/64141792105e/assets/vendor/react-dom/18.2.0/umd/react-dom.production.min.js:109:301
+zf@https://s3-media0.fl.yelpcdn.com/assets/srv0/cdn_assets/64141792105e/assets/vendor/react-dom/18.2.0/umd/react-dom.production.min.js:127:55
+Rk@https://s3-media0.fl.yelpcdn.com/assets/srv0/cdn_assets/64141792105e/assets/vendor/react-dom/18.2.0/umd/react-dom.production.min.js:251:489
+Si@https://s3-media0.fl.yelpcdn.com/assets/srv0/cdn_assets/64141792105e/assets/vendor/react-dom/18.2.0/umd/react-dom.production.min.js:195:187
+Pk@https://s3-media0.fl.yelpcdn.com/assets/srv0/cdn_assets/64141792105e/assets/vendor/react-dom/18.2.0/umd/react-dom.production.min.js:195:118
+Nd@https://s3-media0.fl.yelpcdn.com/assets/srv0/cdn_assets/64141792105e/assets/vendor/react-dom/18.2.0/umd/react-dom.production.min.js:194:492
+Oi@https://s3-media0.fl.yelpcdn.com/assets/srv0/cdn_assets/64141792105e/assets/vendor/react-dom/18.2.0/umd/react-dom.production.min.js:185:186
+S@https://s3-media0.fl.yelpcdn.com/assets/srv0/cdn_assets/d86dcdbfed4c/assets/vendor/react/18.2.0/umd/react.production.min.js:17:26
+U@https://s3-media0.fl.yelpcdn.com/assets/srv0/cdn_assets/d86dcdbfed4c/assets/vendor/react/18.2.0/umd/react.production.min.js:21:60
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1700846612102	geckodriver	INFO	Listening on 127.0.0.1:63197
+1700846612635	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c3/wqq2zhw90l596jqv25j63ggc0000gn/T/rust_mozprofileL8QG0t"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700846613075	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700846613263	Marionette	INFO	Listening on port 63213
+Read port: 63213
+WebDriver BiDi listening on ws://127.0.0.1:63198
+1700846613404	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63198/devtools/browser/8ec014a5-5ece-48ca-bd31-70a8bac2c10b
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2788
+c@https://sc-static.net/scevent.min.js:2:6744
+
+1700846622441	Marionette	INFO	Stopped listening on port 62713
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1700847588942	Marionette	INFO	Stopped listening on port 63213
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1700847607793	geckodriver	INFO	Listening on 127.0.0.1:51060
+1700847608315	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c3/wqq2zhw90l596jqv25j63ggc0000gn/T/rust_mozprofileih1YUl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700847608769	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700847609048	Marionette	INFO	Listening on port 51072
+WebDriver BiDi listening on ws://127.0.0.1:51061
+Read port: 51072
+1700847609259	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51061/devtools/browser/eef47e66-0e28-43ae-8c65-3f62e57361dd
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2788
+c@https://sc-static.net/scevent.min.js:2:6744
+
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1700848202816	Marionette	INFO	Stopped listening on port 51072
