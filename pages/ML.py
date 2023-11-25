@@ -25,10 +25,10 @@ tab1, tab2=st.tabs(['Models','Station Predictions'])
 
 with tab1:
     st.markdown("""
-                1. Data Complexity (6086184,12):
+                1. Data Complexity (6086184,43):
                 - Our hourly subway ridership data has **6086184** rows in total.
                 - Hour, Month, and Month are categorical variables, which requires **dummy coding and dropping first**.
-                - After dummy coding and combining with weather data, we have 12 columns.
+                - After dummy coding and combining with weather data, we have 43 columns.
                 2. Model Selection
                 - There are 425 stations; on average, each station has 14320 data points.
                 - Due to the data complexity, we decided to fit a regression model on each station to predict hourly ridership.
