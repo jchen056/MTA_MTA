@@ -8,8 +8,8 @@ We love MTA for its 24-7 and we hate it for its delays and crowded trains. With 
 
 ![](https://github.com/jchen056/MTA_MTA/blob/main/visualizations/time_spatial.gif)
 
-- Understand complaints about MTA: commendation vs complaint ratio, major complaints(~~text analysis~~)
-- Understand demands for public transportation based on days, hours, and geography: time series analysis and geos-spatial analysis
+- Understand complaints about MTA: commendation vs complaint ratio, major complaints(NLP, text analysis, and sentiment analysis)
+- Understand demands for public transportation based on weekdays, hours, months, and geography: time series analysis and geos-spatial analysis
 
 ## Presentation
 
@@ -21,7 +21,7 @@ Build a ML model to predict demands
 
 ## Solution and its impact: Dynamic Pricing
 
-- case studies: Washing DC and Shanghi & Beijing, China
+- case studies: Washington DC ~~and Shanghi & Beijing, China~~
 - dynamic pricing
 - impact
 
