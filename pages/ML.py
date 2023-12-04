@@ -33,7 +33,7 @@ with tab1:
                 2. Model Selection
                 - There are 425 stations; on average, each station has 14320 data points.
                 - Due to the data complexity, we decided to fit a regression model on each station to predict hourly ridership.
-                - Model considered: Linear regression, Ridge, Lasso, Polynomial regression, Random Forest Regressor, Gradient Boosting Regressor, ~SVR~
+                - Model considered: Linear regression, Ridge, Lasso, Polynomial regression, Random Forest Regressor, Gradient Boosting Regressor, ~SVR~, ~KNN~
                 3. Model Performance
                 - Linear Regression (even with regularization terms) perform badly in predicting hourly ridership, with an average r^2 of 0.64 on testing data.
                 - Random Forest Regressor and Gradient Boosting Regression have better performance than linear regression, with an average r^2 of 0.7 on testing data.
