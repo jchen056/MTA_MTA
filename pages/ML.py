@@ -19,6 +19,7 @@ from sklearn.linear_model import SGDRegressor#Stochastic Gradient Descent
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
+import math
 
 st.header('Predicting Hourly Ridership')
 tab1, tab2=st.tabs(['Models','Station Predictions'])
@@ -360,6 +361,30 @@ with tab2:
         temp=st.number_input('Enter the temperature in F',value=40)
         prcp=st.number_input("Enter the precipitation in inches",value=0)
     
+    def sigmoid(x):
+        return 1 / (1 + math.exp(-x))
+    def calculate_dynamic_fare_with_sigmoid(input_data, base_fare, max_capacity):
+        traffic_factor=1
+        cluster_factor=1
+        event_factor=1
+
+        sigmoid_midpoint = max_capacity / 2  # Midpoint of the sigmoid function
+        sigmoid_steepness = 0.0001  # Controls how steep the sigmoid curve small for more gradual increase.
+
+        predicted_ridership=round(poly_regression.predict(poly.fit_transform(input_data.values))[0],2)
+        
+        # Normalize ridership value for sigmoid function
+        print(predicted_ridership)
+        normalized_ridership = (predicted_ridership - sigmoid_midpoint) * sigmoid_steepness
+        print(normalized_ridership)
+        sigmoid_adjustment = sigmoid(normalized_ridership)
+
+        dynamic_fare = base_fare * (1 + sigmoid_adjustment) * event_factor * traffic_factor * cluster_factor
+
+        return np.clip(dynamic_fare, 0,30)
+    
+    base_fare = 2  # Base fare
+    max_capacity = 2000 #https://www.nycsubway.org/wiki/Loading_Speed_A_Major_Factor_in_Design_of_New_York_Subway_Cars_(1931)
     input_data=pd.DataFrame(np.zeros((1,42)),
                     columns=['PRCP', 'avg_T', 'hour_1', 'hour_2', 'hour_3', 'hour_4', 'hour_5',
     'hour_6', 'hour_7', 'hour_8', 'hour_9', 'hour_10', 'hour_11', 'hour_12',
@@ -382,3 +407,5 @@ with tab2:
     st.write('Ridership prediction with Polynomial Regressor(degree2)',round(poly_regression.predict(poly.fit_transform(input_data.values))[0],2))
     st.write('Ridership prediction with Random Forest Regressor',round(forest.predict(input_data.values)[0],2))
     st.write('Ridership prediction with Gradient Boosting Regressor',round(boosting_r.predict(input_data.values)[0],2))
+    fare = calculate_dynamic_fare_with_sigmoid(input_data, base_fare, max_capacity)
+    st.write("Expected fare: $",round(fare,2))
