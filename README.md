@@ -14,6 +14,7 @@ We love MTA for its 24-7 and we hate it for its delays and crowded trains. With 
 ## Presentation
 
 [Streamlit App](https://mtamta.streamlit.app/)
+[Slide Deck] (https://docs.google.com/presentation/d/1tJ9MqcyZ2L2OO_oMACNHaYqfj_ekXP31SwajUuRCO1s/edit?usp=sharing)
 
 ## ML
 
