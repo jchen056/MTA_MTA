@@ -383,7 +383,7 @@ with tab2:
 
         return np.clip(dynamic_fare, 0,30)
     
-    base_fare = 2  # Base fare
+    base_fare = 2.9  # Base fare
     max_capacity = 2000 #https://www.nycsubway.org/wiki/Loading_Speed_A_Major_Factor_in_Design_of_New_York_Subway_Cars_(1931)
     input_data=pd.DataFrame(np.zeros((1,42)),
                     columns=['PRCP', 'avg_T', 'hour_1', 'hour_2', 'hour_3', 'hour_4', 'hour_5',
