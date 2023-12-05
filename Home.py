@@ -17,7 +17,7 @@ from datetime import datetime, timedelta
 # from bokeh.models import DatetimeTickFormatter
 from datetime import datetime
 
-st.header("Introduction to MTA")
+st.header("Data, at Your Service")
 st.markdown("""Metropolitan Transportation Authority(MTA) is North America's largest transportation network, serving a population of 15.3 million people across a 5,000-square-mile travel area surrounding New York City, Long Island, southeastern New York State, and Connecticut.
             **Source**: https://new.mta.info/about
             """)
@@ -111,7 +111,10 @@ st.markdown("""Metropolitan Transportation Authority(MTA) is North America's lar
 # hover.tooltips = [("date", "@datestr"), ("Card Swipes", "@y_values)")]
 # hover.mode = 'mouse'
 # save(p)
-tab1, tab2, tab3 = st.tabs(["Effects of Pandemic", "Complaint vs Commedation", "NLP"])
+tab, tab1, tab2, tab3 = st.tabs(["Roadmap","Effects of Pandemic", "Complaint vs Commedation", "NLP"])
+with tab:
+    img_roadmap=Image.open("visualizations/roadmap.png")
+    st.image(img_roadmap,caption="Roadmap")
 with tab1:
     tb11,tb12=st.tabs(['Pandemic','Growth'])
     with tb11:
