@@ -353,17 +353,22 @@ with tab2:
         model_performance_mse['MSE_training']=mses_train
         model_performance_mse['MSE_testing']=mses_test
         st.dataframe(model_performance_mse.style.highlight_min(axis=0))
-    col1,col2=st.columns(2)
-    with col1:
-        hr=st.slider("Enter the hour:",min_value=0,max_value=23,step=1,value=7)
-        month=st.slider("Enter the month:",min_value=1,max_value=12,step=1,value=11)
-        weekdays=st.select_slider("Enter the weekday:",options=[
-            'Mon','Tue','Wed','Thr','Fri','Sat','Sun'
-        ],value='Fri')
-    with col2:
-        temp=st.number_input('Enter the temperature in F',value=40)
-        prcp=st.number_input("Enter the precipitation in inches",value=0)
     
+
+    with st.form('my_form'):
+        col1,col2=st.columns(2)
+        with col1:
+            hr=st.slider("Enter the hour:",min_value=0,max_value=23,step=1,value=7,key='hour')
+            month=st.slider("Enter the month:",min_value=1,max_value=12,step=1,value=11,key='month')
+            weekdays=st.select_slider("Enter the weekday:",options=[
+                'Mon','Tue','Wed','Thr','Fri','Sat','Sun'
+            ],value='Fri',key='weekdays')
+        with col2:
+            temp=st.number_input('Enter the temperature in F',value=40,key='temp')
+            prcp=st.number_input("Enter the precipitation in inches",value=0,key='prcp')
+        submitted = st.form_submit_button("Submit")
+        if submitted:
+            st.write("Hour: ", hr, " ; Month: ", month, " ; Weekdays: ",weekdays, " ; Temperature: ",temp, " ; Precipitation: ",prcp)
     def sigmoid(x):
         return 1 / (1 + math.exp(-x))
     def calculate_dynamic_fare_with_sigmoid(input_data, base_fare, max_capacity):
