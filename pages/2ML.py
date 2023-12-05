@@ -20,11 +20,14 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import math
+from PIL import Image
 
 st.header('Predicting Hourly Ridership')
 tab1, tab2=st.tabs(['Models','Station Predictions'])
 
 with tab1:
+    image = Image.open('visualizations/station_ml_scores/model_performance.png')
+    st.image(image, caption='ML Model Performance')
     st.markdown("""
                 1. Data Complexity (6086184,43):
                 - Our hourly subway ridership data has **6086184** rows in total.
